@@ -20,6 +20,8 @@
 		1058E15F23C667280030B2CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058E15E23C667280030B2CB /* InterfaceController.swift */; };
 		1058E16123C667280030B2CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058E16023C667280030B2CB /* ExtensionDelegate.swift */; };
 		1058E16323C6672A0030B2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1058E16223C6672A0030B2CB /* Assets.xcassets */; };
+		1058E17423C667840030B2CB /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058E17223C667840030B2CB /* KeychainWrapper.swift */; };
+		1058E17523C667840030B2CB /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058E17323C667840030B2CB /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		1058E16023C667280030B2CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		1058E16223C6672A0030B2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1058E16423C6672A0030B2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1058E17223C667840030B2CB /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		1058E17323C667840030B2CB /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 				1058E16023C667280030B2CB /* ExtensionDelegate.swift */,
 				1058E16223C6672A0030B2CB /* Assets.xcassets */,
 				1058E16423C6672A0030B2CB /* Info.plist */,
+				1058E17323C667840030B2CB /* KeychainItemAccessibility.swift */,
+				1058E17223C667840030B2CB /* KeychainWrapper.swift */,
 			);
 			path = "Rd-n-WtFromKeychain WatchKit Extension";
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1058E17423C667840030B2CB /* KeychainWrapper.swift in Sources */,
+				1058E17523C667840030B2CB /* KeychainItemAccessibility.swift in Sources */,
 				1058E16123C667280030B2CB /* ExtensionDelegate.swift in Sources */,
 				1058E15F23C667280030B2CB /* InterfaceController.swift in Sources */,
 			);
